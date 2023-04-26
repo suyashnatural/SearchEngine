@@ -7,7 +7,9 @@
     "scripts": "cypress run",
     "test": "npm run scripts",
     "smoke": "cypress run --spec cypress/e2e/smoke.cy.js",
-    "regression": "cypress run --spec cypress/e2e/regression.cy.js"
+    "regression": "cypress run --spec cypress/e2e/regression.cy.js",
+    "smoke:chrome": "cypress run --browser chrome --spec cypress/e2e/smoke.cy.js",
+    "regression:chrome": "cypress run --browser chrome --spec cypress/e2e/regression.cy.js"
   },
   "keywords": [],
   "author": "Suyash Nande",
