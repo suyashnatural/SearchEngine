@@ -1,0 +1,26 @@
+[
+    {
+        "engine": "google",
+        "url": "https://www.google.com/",
+        "searchTerm": "fiserv",
+        "expectedText": "fiserver"
+    },
+    {
+        "engine": "bing",
+        "url": "https://www.bing.com/",
+        "searchTerm": "cypress",
+        "expectedText": "fiserv"
+    },
+    {
+        "engine": "yahoo",
+        "url": "https://www.yahoo.com/",
+        "searchTerm": " ",
+        "expectedText": "fiserv"
+    },
+    {
+        "engine": "google",
+        "url": "https://www.google.com/",
+        "searchTerm": "fiserv",
+        "expectedText": "fi   serv"
+    }
+]

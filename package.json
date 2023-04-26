@@ -1,0 +1,20 @@
+{
+  "name": "search-engine-test",
+  "version": "1.0.0",
+  "description": "Search Engine Test Automation Suite",
+  "main": "index.js",
+  "scripts": {
+    "scripts": "cypress run",
+    "test": "npm run scripts",
+    "smoke": "cypress run --spec cypress/e2e/smoke.cy.js",
+    "regression": "cypress run --spec cypress/e2e/regression.cy.js"
+  },
+  "keywords": [],
+  "author": "Suyash Nande",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^12.10.0",
+    "cypress-mochawesome-reporter": "^3.4.0",
+    "mocha": "^10.2.0"
+  }
+}

@@ -1,0 +1,7 @@
+[
+    {
+        "searchengine": "yahoo",
+        "searchterm": "fiserv",
+        "expectedtext": "fiserv"
+    }
+]
