@@ -12,6 +12,8 @@ class GoogleSearchPage extends SearchPage {
     this.searchInput = '#APjFqb';
     this.searchButton = 'form';
     this.resultLink = '#search';
+    this.tools = '#hdtb-tls';
+    this.anyTime = "div[class='hdtb-mn-hd Yg3U7e'] div[class='KTBKoe']";
   }
 }
 export default GoogleSearchPage;

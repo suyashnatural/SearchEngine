@@ -1,7 +1,9 @@
 [
     {
-        "searchengine": "yahoo",
+        "searchengine": "google",
         "searchterm": "fiserv",
-        "expectedtext": "fiserv"
+        "expectedtext": "fiserv",
+        "filterInterval": "Past year",
+        "filterIntervalOptions": "Any time, Past hour, Past 24 hours, Past week, Past month, Past year"
     }
 ]

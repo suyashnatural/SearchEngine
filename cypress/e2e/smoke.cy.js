@@ -18,6 +18,7 @@ describe("Smoke Test Suite", () => {
       searchPage.visit();
       searchPage.search(smokeData.searchterm);
       searchPage.getResultLink().should("contain", smokeData.expectedtext.toLowerCase());
+      searchPage.filter(smokeData.filterInterval);
     })
   });
 });

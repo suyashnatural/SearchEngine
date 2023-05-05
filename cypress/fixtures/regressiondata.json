@@ -1,19 +1,16 @@
 [
     {
         "engine": "google",
-        "url": "https://www.google.com/",
         "searchTerm": "Cypress Automation",
         "expectedText": "cypress"
     },
     {
         "engine": "yahoo",
-        "url": "https://www.yahoo.com/",
         "searchTerm": "iphone",
         "expectedText": "iphone"
     },
     {
         "engine": "bing",
-        "url": "https://www.bing.com/",
         "searchTerm": "Cypress Automation",
         "expectedText": "cypress"
     }
